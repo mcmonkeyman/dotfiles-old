@@ -71,7 +71,7 @@ export PATH=/Users/eoconnor/Library/Haskell/bin:$PATH;
 export PATH=/Users/eoconnor/Library/scala-2.10.0-RC3/bin:$PATH;
 export PATH=$GRAILS_HOME/bin:$PATH;
 export PATH=/usr/local/heroku/bin/:$PATH;
-export PAaTH=/Applications/OpenStudioi\ 1.3.2/Java/openstudio:$PATH;
+export PATH=/Applications/OpenStudioi\ 1.3.2/Java/openstudio:$PATH;
 
 export EDITOR='vim'
 export DISABLE_AUTO_TITLE=true
@@ -81,6 +81,20 @@ source ~/.bin/tmuxinator.zsh
 bindkey -e
 bindkey '^[^[[C' forward-word
 bindkey '^[^[[D' backward-word
+
+#Add Vi support
+#bindkey -v
+#function zle-line-init zle-keymap-select {
+#    	VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
+#	RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}"
+#	zle reset-prompt
+#}
+
+#zle -N zle-line-init
+#zle -N zle-keymap-select
+#export KEYTIMEOUT=1
+
+#bindkey "^R" history-incremental-search-backward
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -98,4 +112,4 @@ bindkey '^[^[[D' backward-word
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Mouse support
-zle-toggle-mouse
+#zle-toggle-mouse
