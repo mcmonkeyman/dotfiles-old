@@ -8,3 +8,7 @@ set dir=/private/tmp
 :set expandtab
 :set tabstop=4
 :set shiftwidth=4
+"NERDTree toggle"
+map <C-n> :NERDTreeToggle<CR>
+
+
