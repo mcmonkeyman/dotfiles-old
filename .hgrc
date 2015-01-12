@@ -1,0 +1,17 @@
+[ui]
+username= Eoin O'Connor <eo'connor@theladders.com>
+
+[extensions]
+shelve=
+color =
+
+[color]
+diff.diffline = bold
+diff.extended = cyan bold
+diff.file_a = red bold
+diff.file_b = green bold
+diff.hunk = magenta
+diff.deleted = red
+diff.inserted = green
+diff.changed = white
+diff.trailingwhitespace = bold red_background
