@@ -3,7 +3,8 @@ username= Eoin O'Connor <eo'connor@theladders.com>
 
 [extensions]
 shelve=
-color =
+color=
+mq=
 
 [color]
 diff.diffline = bold
