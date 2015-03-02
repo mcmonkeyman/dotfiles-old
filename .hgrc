@@ -5,6 +5,8 @@ username= Eoin O'Connor <eo'connor@theladders.com>
 shelve=
 color=
 mq=
+hgk =
+graphlog =
 
 [color]
 diff.diffline = bold
