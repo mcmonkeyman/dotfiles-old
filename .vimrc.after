@@ -10,5 +10,7 @@ set dir=/private/tmp
 :set shiftwidth=4
 "NERDTree toggle"
 map <C-n> :NERDTreeToggle<CR>
-
-
+"NERDTREE wider"
+let g:NERDTreeWinSize = 60
+"JsonFormatting"
+com! FormatJson %!python -m json.tool
