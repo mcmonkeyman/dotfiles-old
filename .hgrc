@@ -1,5 +1,6 @@
 [ui]
 username= Eoin O'Connor <eo'connor@theladders.com>
+merge=internal:merge
 
 [extensions]
 shelve=
@@ -18,3 +19,7 @@ diff.deleted = red
 diff.inserted = green
 diff.changed = white
 diff.trailingwhitespace = bold red_background
+
+[merge-tools]
+vimdiff.executable = vim
+vimdiff.args = -d $base $local $output $other -c "wincmd J"

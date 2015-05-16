@@ -14,3 +14,5 @@ map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize = 60
 "JsonFormatting"
 com! FormatJson %!python -m json.tool
+"Share buffers"
+set clipboard=unnamed
