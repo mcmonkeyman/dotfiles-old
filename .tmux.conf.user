@@ -14,12 +14,6 @@ setw -g mouse-select-pane on
 # Allow tmux access to correct namespace so it can talk to GUI's  
 set-option -g default-command "reattach-to-user-namespace -l zsh"
 
-#bind Escape copy-mode
-unbind p
-bind p paste-buffer
-bind -t vi-copy v begin-selection
-bind -t vi-copy y copy-selection
-
 # Update default binding of `Enter` to also use copy-pipe
 unbind -t vi-copy Enter
 bind-key -t vi-copy Enter copy-pipe "reattach-to-user-namespace pbcopy"
@@ -27,12 +21,6 @@ bind-key -t vi-copy Enter copy-pipe "reattach-to-user-namespace pbcopy"
 # Setup 'v' to begin selection as in Vim
 bind-key -t vi-copy v begin-selection
 bind-key -t vi-copy y copy-pipe "reattach-to-user-namespace pbcopy"
-
-# Bind ']' to use pbpaste
-bind ] run "reattach-to-user-namespace pbpaste | tmux load-buffer - && tmux paste-buffer"
-
-# after copying to a tmux buffer, hit y again to copy to clipboard
-bind y run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
 
 # set scrollback history to 10000 (10k)
 set -g history-limit 10000
