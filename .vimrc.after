@@ -12,7 +12,11 @@ set dir=/private/tmp
 map <C-n> :NERDTreeToggle<CR>
 "NERDTREE wider"
 let g:NERDTreeWinSize = 60
+"NERDTREE treefind"
+nmap ,n :NERDTreeFind<CR>
 "JsonFormatting"
 com! FormatJson %!python -m json.tool
 "Share buffers"
-set clipboard=unnamed
+if $TMUX == ''
+  set clipboard+=unnamed
+endif

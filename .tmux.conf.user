@@ -31,3 +31,6 @@ bind \ split-window -v -c "#{pane_current_path}"
 
 # Set vi keys
 setw -g mode-keys vi
+
+# Window Number reordering 
+set-option -g renumber-windows on
