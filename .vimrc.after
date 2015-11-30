@@ -20,3 +20,5 @@ com! FormatJson %!python -m json.tool
 if $TMUX == ''
   set clipboard+=unnamed
 endif
+set clipboard=unnamed
+set tags=tags,./tags
