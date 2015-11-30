@@ -2,7 +2,7 @@
 My configuration files
 
 # Step1:
-* Install (yadr)[https://github.com/skwp/dotfiles]
+* Install [yadr](https://github.com/skwp/dotfiles)
 
 # Step2:
 Clone this repo.
