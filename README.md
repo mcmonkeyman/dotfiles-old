@@ -1,7 +1,13 @@
 # dotfiles
 My configuration files
 
-# Link files to home directory
+# Step1:
+* Install (yadr)[https://github.com/skwp/dotfiles]
+
+# Step2:
+Clone this repo.
+
+# Step3: Link files to home directory
 ```
 ln -s ~/code/dotfiles/.tmux.conf.user ~/.tmux.conf.user
 ln -s ~/code/dotfiles/.zprofile ~/.zprofile --only for home
