@@ -1,6 +1,11 @@
 #!/bin/sh
 
 #
+# Install Brew
+#
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#
 # Brew packages that I use alot.
 #
 brew install git
