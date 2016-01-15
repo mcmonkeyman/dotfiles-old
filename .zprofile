@@ -76,6 +76,7 @@ path=(
   /opt/local/scala-2.10.0-RC3/bin
   /Users/eoconnor/bin
   /Users/eoconnor/bin
+  /Users/eoconnor/bin/cs
   $AWS_AUTO_SCALING_HOME/bin
   $path
 )
