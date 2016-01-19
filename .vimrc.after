@@ -22,3 +22,4 @@ if $TMUX == ''
 endif
 set clipboard=unnamed
 set tags=tags,./tags
+

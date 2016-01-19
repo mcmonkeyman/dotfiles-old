@@ -21,6 +21,7 @@ brew install postgis
 brew install graphviz
 brew install node
 brew install npm
+brew install go
 
 #
 # Install updated Vim

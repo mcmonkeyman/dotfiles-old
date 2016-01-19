@@ -78,6 +78,7 @@ path=(
   /Users/eoconnor/bin
   /Users/eoconnor/bin/cs
   $AWS_AUTO_SCALING_HOME/bin
+  /usr/local/opt/go/libexec/bin
   $path
 )
 
