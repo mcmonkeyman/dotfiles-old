@@ -27,6 +27,13 @@ brew install graphviz
 brew install node
 brew install npm
 brew install go
+brew install jsonpp
+
+#
+# Node setup 
+#
+brew install nvm
+nvm install 0.12.7
 
 #
 # Install updated Vim
