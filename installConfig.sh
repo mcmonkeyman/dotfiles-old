@@ -17,6 +17,8 @@ brew install git
 brew cask install java
 brew install scala --with-docs
 brew install sbt
+brew install typesafe-activator
+brew install maven
 
 #
 # Reonomy Brew packages.
@@ -28,6 +30,14 @@ brew install node
 brew install npm
 brew install go
 brew install jsonpp
+brew install awscli
+brew install gnu-sed
+brew install siege
+
+#
+# Logstash 
+#
+brew install netcat
 
 #
 # Node setup 
