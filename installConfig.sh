@@ -19,6 +19,7 @@ brew install scala --with-docs
 brew install sbt
 brew install typesafe-activator
 brew install maven
+brew install jq
 
 #
 # Reonomy Brew packages.
@@ -33,6 +34,7 @@ brew install jsonpp
 brew install awscli
 brew install gnu-sed
 brew install siege
+brew install wget
 
 #
 # Logstash 
@@ -74,6 +76,7 @@ brew cask install shiftit
 brew cask install sublime-text
 brew cask install tunnelblick
 brew cask install xquartz
+brew cask install tomighty                                                                                                                                                                                                                             [
 
 #
 # Link alfred to cask
