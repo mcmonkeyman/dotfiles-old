@@ -87,4 +87,5 @@ brew cask alfred link
 # Install conscript
 #
 curl https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh
-
+cs --install
+cs sbt/sbt --branch 0.13 
