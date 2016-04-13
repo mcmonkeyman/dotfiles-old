@@ -35,6 +35,7 @@ brew install awscli
 brew install gnu-sed
 brew install siege
 brew install wget
+brew install tree
 
 #
 # Logstash 
