@@ -77,6 +77,7 @@ brew cask install sublime-text
 brew cask install tunnelblick
 brew cask install xquartz
 brew cask install tomighty                                                                                                                                                                                                                             [
+brew cask install gitter
 
 #
 # Link alfred to cask
