@@ -22,3 +22,8 @@ alias bu='DIR=${PWD##*/}; rm -rf ../${DIR}.backup; cp -R ../${DIR} ../${DIR}.bac
 # fun aliases
 #
 alias weather='curl http://wttr.in/'
+
+#
+# git aliases
+#
+alias git-clear='git clean -df; git checkout -- .;'
