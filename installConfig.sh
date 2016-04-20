@@ -5,6 +5,12 @@
 #
 
 #
+############
+############ PACKAGES
+############
+#
+
+#
 # Install brew and brew-cask
 #
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -37,6 +43,7 @@ brew install siege
 brew install wget
 brew install tree
 brew install gawk
+brew install rbenv ruby-build
 
 #
 # Logstash 
@@ -86,6 +93,13 @@ brew cask install gitter
 #
 brew cask alfred link
 
+
+#
+############
+############ SCALA
+############
+#
+
 #
 # Install conscript
 #
@@ -93,6 +107,29 @@ curl https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh
 cs --install
 cs sbt/sbt --branch 0.13 
 
+#
+# Conscript packages
+#
+cs tototoshi/mvnsearch
+cs softprops/spakle
+
+#
+############
+############ RUBY
+############
+#
+rbenv install 2.2.2
+rbenv global 2.2.2
+ruby -v
+gem install jekyll
+
+
+
+#
+############
+############ LINK THE DOTFILES
+############
+#
 
 #
 # Link the scripts
