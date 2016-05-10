@@ -87,6 +87,7 @@ brew cask install tunnelblick
 brew cask install xquartz
 brew cask install tomighty                                                                                                                                                                                                                             [
 brew cask install gitter
+brew cask install macdown.
 
 #
 # Link alfred to cask
