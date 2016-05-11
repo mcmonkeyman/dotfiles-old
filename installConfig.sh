@@ -20,12 +20,13 @@ brew install brew-cask
 # Brew packages that I use alot.
 #
 brew install git
-brew cask install java
 brew install scala --with-docs
 brew install sbt
 brew install typesafe-activator
 brew install maven
 brew install jq
+brew install python
+brew linkapps python
 
 #
 # Reonomy Brew packages.
@@ -46,12 +47,12 @@ brew install gawk
 brew install rbenv ruby-build
 
 #
-# Logstash 
+# Logstash
 #
 brew install netcat
 
 #
-# Node setup 
+# Node setup
 #
 brew install nvm
 nvm install 0.12.7
@@ -66,6 +67,7 @@ brew install vim --with-luajit --override-system-vim
 #
 # Some cask packages that I like.
 #
+brew cask install java
 brew cask install alfred
 brew cask install amethyst
 brew cask install caffeine
