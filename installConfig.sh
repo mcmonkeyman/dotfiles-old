@@ -26,6 +26,7 @@ brew install typesafe-activator
 brew install maven
 brew install jq
 brew install python
+brew install python3
 brew linkapps python
 
 #
