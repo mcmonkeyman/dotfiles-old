@@ -75,7 +75,6 @@ brew cask install caffeine
 brew cask install captur
 brew cask install evernote
 brew cask install google-chrome
-brew cask install intellij-idea-ce
 brew cask install item2
 brew cask install jumpcut
 brew cask install karabiner
@@ -91,6 +90,7 @@ brew cask install xquartz
 brew cask install tomighty                                                                                                                                                                                                                             [
 brew cask install gitter
 brew cask install macdown.
+brew install Caskroom/versions/intellij-idea-ce
 
 #
 # Link alfred to cask
