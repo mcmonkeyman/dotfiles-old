@@ -19,48 +19,57 @@ brew install brew-cask
 #
 # Brew packages that I use alot.
 #
-brew install git
+
+# Languages
+## Scala
 brew install scala --with-docs
 brew install sbt
 brew install typesafe-activator
 brew install maven
-brew install jq
+### conscript
+curl https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh
+cs --install
+cs sbt/sbt --branch 0.13 
+### Conscript packages
+cs tototoshi/mvnsearch
+cs softprops/spakle
+## Python
 brew install python
 brew install python3
 brew linkapps python
+brew install rbenv ruby-build
+## Node
+brew install npm
+brew install node
+brew install nvm
+nvm install 0.12.7
+## Ruby
+rbenv install 2.2.2
+rbenv global 2.2.2
+ruby -v
+gem install jekyll
+## Go
+brew install go
 
-#
-# Reonomy Brew packages.
-#
+# Dbs
 brew install postgres
 brew install postgis
 brew install graphviz
-brew install node
-brew install npm
-brew install go
-brew install jsonpp
-brew install awscli
-brew install gnu-sed
+
+# Tools
 brew install siege
+brew install awscli
+brew install git
+brew install gnu-sed
+brew install jsonpp
 brew install wget
 brew install tree
 brew install gawk
-brew install rbenv ruby-build
-
-#
-# Logstash
-#
+brew install jq
+brew install cloc
+## Logstash
 brew install netcat
-
-#
-# Node setup
-#
-brew install nvm
-nvm install 0.12.7
-
-#
-# Install updated Vim
-#
+## Install updated Vim
 brew uninstall vim
 brew install luajit
 brew install vim --with-luajit --override-system-vim
@@ -91,43 +100,8 @@ brew cask install tomighty                                                      
 brew cask install gitter
 brew cask install macdown.
 brew install Caskroom/versions/intellij-idea-ce
-
-#
-# Link alfred to cask
-#
+## Link alfred to cask
 brew cask alfred link
-
-
-#
-############
-############ SCALA
-############
-#
-
-#
-# Install conscript
-#
-curl https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh
-cs --install
-cs sbt/sbt --branch 0.13 
-
-#
-# Conscript packages
-#
-cs tototoshi/mvnsearch
-cs softprops/spakle
-
-#
-############
-############ RUBY
-############
-#
-rbenv install 2.2.2
-rbenv global 2.2.2
-ruby -v
-gem install jekyll
-
-
 
 #
 ############
