@@ -37,13 +37,14 @@ cs softprops/spakle
 brew install python
 brew install python3
 brew linkapps python
-brew install rbenv ruby-build
+pip install grip
 ## Node
 brew install npm
 brew install node
 brew install nvm
 nvm install 0.12.7
 ## Ruby
+brew install rbenv ruby-build
 rbenv install 2.2.2
 rbenv global 2.2.2
 ruby -v
@@ -67,6 +68,7 @@ brew install tree
 brew install gawk
 brew install jq
 brew install cloc
+brew install docker
 ## Logstash
 brew install netcat
 ## Install updated Vim
@@ -100,6 +102,7 @@ brew cask install tomighty                                                      
 brew cask install gitter
 brew cask install macdown.
 brew install Caskroom/versions/intellij-idea-ce
+brew cask install dockertoolbox
 ## Link alfred to cask
 brew cask alfred link
 
