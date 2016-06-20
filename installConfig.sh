@@ -37,7 +37,7 @@ cs softprops/spakle
 brew install python
 brew install python3
 brew linkapps python
-pip install grip
+pip3 install grip
 ## Node
 brew install npm
 brew install node
@@ -69,6 +69,8 @@ brew install gawk
 brew install jq
 brew install cloc
 brew install docker
+brew install flyway 
+
 ## Logstash
 brew install netcat
 ## Install updated Vim
