@@ -38,6 +38,8 @@ brew install python
 brew install python3
 brew linkapps python
 pip install grip
+pip install csvkit
+
 ## Node
 brew install npm
 brew install node
@@ -51,11 +53,16 @@ ruby -v
 gem install jekyll
 ## Go
 brew install go
+## java 
+brew install gradle
 
 # Dbs
 brew install postgres
+# Db Tools
 brew install postgis
-brew install graphviz
+brew install pgloader 
+brew install apgdiff
+brew install pgdbf  
 
 # Tools
 brew install siege
@@ -69,6 +76,10 @@ brew install gawk
 brew install jq
 brew install cloc
 brew install docker
+brew install graphviz
+brew install tesseract
+brew install HTTPie
+
 ## Logstash
 brew install netcat
 ## Install updated Vim
@@ -87,7 +98,8 @@ brew cask install captur
 brew cask install evernote
 brew cask install google-chrome
 brew cask install item2
-brew cask install jumpcut
+# brew cask install jumpcut
+brew cask install clipmenu
 brew cask install karabiner
 brew cask install pgadmin3
 brew cask install seil
@@ -103,6 +115,7 @@ brew cask install gitter
 brew cask install macdown.
 brew install Caskroom/versions/intellij-idea-ce
 brew cask install dockertoolbox
+brew cask install gif-for-mac
 ## Link alfred to cask
 brew cask alfred link
 
