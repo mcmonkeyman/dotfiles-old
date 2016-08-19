@@ -35,10 +35,12 @@ cs tototoshi/mvnsearch
 cs softprops/spakle
 ## Python
 brew install python
-brew install python3
 brew linkapps python
 pip install grip
 pip install csvkit
+
+brew install python3
+pip3 install grip
 
 ## Node
 brew install npm
@@ -79,6 +81,7 @@ brew install docker
 brew install graphviz
 brew install tesseract
 brew install HTTPie
+brew install flyway 
 
 ## Logstash
 brew install netcat
