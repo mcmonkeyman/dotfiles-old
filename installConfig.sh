@@ -29,7 +29,7 @@ brew install maven
 ### conscript
 curl https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh
 cs --install
-cs sbt/sbt --branch 0.13 
+cs sbt/sbt --branch 0.13
 ### Conscript packages
 cs tototoshi/mvnsearch
 cs softprops/spakle
@@ -38,6 +38,7 @@ brew install python
 brew linkapps python
 pip install grip
 pip install csvkit
+pip install psycopg2
 
 brew install python3
 pip3 install grip
@@ -55,20 +56,19 @@ ruby -v
 gem install jekyll
 ## Go
 brew install go
-## java 
+## java
 brew install gradle
 
 # Dbs
 brew install postgres
 # Db Tools
 brew install postgis
-brew install pgloader 
+brew install pgloader
 brew install apgdiff
-brew install pgdbf  
+brew install pgdbf
 
 # Tools
 brew install siege
-brew install awscli
 brew install git
 brew install gnu-sed
 brew install jsonpp
@@ -81,11 +81,18 @@ brew install docker
 brew install graphviz
 brew install tesseract
 brew install HTTPie
-brew install flyway 
+brew install flyway
+brew install hugo
+
+# AWS
+brew install awscli
+brew install awsebcli
+
+brew tap homebrew/services
 
 ## Logstash
 brew install netcat
-## Install updated Vim
+## Updated Vim
 brew uninstall vim
 brew install luajit
 brew install vim --with-luajit --override-system-vim
