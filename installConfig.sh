@@ -66,6 +66,7 @@ brew install postgis
 brew install pgloader
 brew install apgdiff
 brew install pgdbf
+brew install psql2csv
 
 # Tools
 brew install siege
@@ -83,6 +84,7 @@ brew install tesseract
 brew install HTTPie
 brew install flyway
 brew install hugo
+brew install p7zip
 
 # AWS
 brew install awscli
