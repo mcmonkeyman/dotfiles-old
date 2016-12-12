@@ -38,6 +38,7 @@ brew install python
 brew linkapps python
 pip install grip
 pip install csvkit
+pip install psycopg2
 
 brew install python3
 pip3 install grip
@@ -70,7 +71,6 @@ brew install flwyay
 
 # Tools
 brew install siege
-brew install awscli
 brew install git
 brew install gnu-sed
 brew install jsonpp
@@ -84,12 +84,19 @@ brew install graphviz
 brew install tesseract
 brew install HTTPie
 brew install flyway
+brew install hugo
 brew install p7zip
 brew install dos2unix
 
+# AWS
+brew install awscli
+brew install awsebcli
+
+brew tap homebrew/services
+
 ## Logstash
 brew install netcat
-## Install updated Vim
+## Updated Vim
 brew uninstall vim
 brew install luajit
 brew install vim --with-luajit --override-system-vim
