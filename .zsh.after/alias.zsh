@@ -28,3 +28,8 @@ alias weather='curl http://wttr.in/'
 # git aliases
 #
 alias git-clear='git clean -df; git checkout -- .;'
+
+#
+# docker aliases
+#
+alias docker-start='bash --login /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh;'

@@ -29,7 +29,7 @@ brew install maven
 ### conscript
 curl https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh
 cs --install
-cs sbt/sbt --branch 0.13 
+cs sbt/sbt --branch 0.13
 ### Conscript packages
 cs tototoshi/mvnsearch
 cs softprops/spakle
@@ -55,17 +55,18 @@ ruby -v
 gem install jekyll
 ## Go
 brew install go
-## java 
+## java
 brew install gradle
 
 # Dbs
 brew install postgres
 # Db Tools
 brew install postgis
-brew install pgloader 
+brew install pgloader
 brew install apgdiff
-brew install pgdbf  
+brew install pgdbf
 brew install psql2csv
+brew install flwyay
 
 # Tools
 brew install siege
@@ -82,8 +83,9 @@ brew install docker
 brew install graphviz
 brew install tesseract
 brew install HTTPie
-brew install flyway 
+brew install flyway
 brew install p7zip
+brew install dos2unix
 
 ## Logstash
 brew install netcat
