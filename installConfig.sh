@@ -87,6 +87,7 @@ brew install flyway
 brew install hugo
 brew install p7zip
 brew install dos2unix
+brew install apache-spark
 
 # AWS
 brew install awscli
@@ -132,6 +133,7 @@ brew cask install dockertoolbox
 brew cask install gif-for-mac
 ## Link alfred to cask
 brew cask alfred link
+# brew cask install vienna
 
 #
 ############
