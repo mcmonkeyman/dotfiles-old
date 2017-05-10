@@ -68,6 +68,7 @@ brew install apgdiff
 brew install pgdbf
 brew install psql2csv
 brew install flwyay
+brew install parquet-tools
 
 # Tools
 brew install siege
